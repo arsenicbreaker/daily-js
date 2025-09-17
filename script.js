@@ -1,3 +1,7 @@
+//troubleshoot first
+console.log(document.tittle);
+document.tittle = "im still learning";
+
 const correctPassword = "12345";
 
 window.onload = function() {
