@@ -2,7 +2,8 @@
 //object virtualpet mempunyai data berupa properti sleepy dan fungsi nap
 var virtualPet = {
   sleepy: true, //setiap properti dipisahkan dengan koma
-  nap: function () {
+
+  nap: function() {
     this.sleepy = false; //this mengacu pada objek virtualPet
   },
 };
