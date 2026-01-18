@@ -1,47 +1,47 @@
-import { useState } from 'react'
-import UserCard from "./useCard"
-
+import { useState } from "react";
 
 function App() {
- const [count, setCount] = useState(0)
- return (
- <div>
- <h1>Hello World dari ocean!</h1>
- <p>Ini adalah aplikasi React pertama saya 🚀</p>
- <UserCard />
- <div style={{ marginTop: '24px' }}>
- <p>Kamu udah klik tombol: <strong>{count}</strong> kali</p>
- <button
- onClick={() => setCount(count + 1)}
- style={{
- padding: '12px 24px',
- fontSize: '16px',
- background: '#61dafb',
- border: 'none',
- borderRadius: '8px',
- cursor: 'pointer',
- marginTop: '12px'
- }}>
- +
- </button>
+  const [count, setCount] = useState(0);
+  return (
+    <div>
+      <h1>Hello World dari ocean!</h1>
+      <p>Ini adalah aplikasi React pertama saya 🚀</p>
+      <div style={{ marginTop: "24px" }}>
+        <p>
+          Kamu udah klik tombol: <strong>{count}</strong> kali
+        </p>
+        <button
+          onClick={() => setCount(count + 1)}
+          style={{
+            padding: "12px 24px",
+            fontSize: "16px",
+            background: "#61dafb",
+            border: "none",
+            borderRadius: "8px",
+            cursor: "pointer",
+            marginTop: "12px",
+          }}
+        >
+          +
+        </button>
 
- <button
- onClick={() => setCount(count - 1)}
- style={{
- padding: '12px 24px',
- fontSize: '16px',
- background: '#61dafb',
- border: 'none',
- borderRadius: '8px',
- cursor: 'pointer',
- marginTop: '12px'
- }}>
- -
- </button>
-
- </div>
- </div>
- )
+        <button
+          onClick={() => setCount(count - 1)}
+          style={{
+            padding: "12px 24px",
+            fontSize: "16px",
+            background: "#61dafb",
+            border: "none",
+            borderRadius: "8px",
+            cursor: "pointer",
+            marginTop: "12px",
+          }}
+        >
+          -
+        </button>
+      </div>
+    </div>
+  );
 }
 
-export default App
+export default App;
