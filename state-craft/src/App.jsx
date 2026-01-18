@@ -1,4 +1,6 @@
 import { useState } from "react";
+import UserCard from "./component/userCard";
+import ClickExample from "./component/onClick";
 
 function App() {
   const [count, setCount] = useState(0);
@@ -6,6 +8,8 @@ function App() {
     <div>
       <h1>Hello World dari ocean!</h1>
       <p>Ini adalah aplikasi React pertama saya 🚀</p>
+      <UserCard />
+      <ClickExample />
       <div style={{ marginTop: "24px" }}>
         <p>
           Kamu udah klik tombol: <strong>{count}</strong> kali

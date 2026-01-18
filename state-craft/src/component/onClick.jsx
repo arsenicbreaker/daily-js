@@ -1,3 +1,5 @@
+//alert ketika tombol diklik
+
 function ClickExample() {
  const handleClick = () => {
  alert("Button clicked!")
