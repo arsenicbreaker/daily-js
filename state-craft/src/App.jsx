@@ -1,4 +1,5 @@
-import TodoApp from "./component/ToDoApp";
+import ProductFilter from "./component/ProductFilter.jsx";
+
 
 function App() {
   return (
@@ -12,7 +13,7 @@ function App() {
       <main>
         <h1>Hello World from ocean!</h1>
         <p>Ini adalah aplikasi React pertama saya 🚀</p>
-        <TodoApp />
+        <ProductFilter />
       </main>
     </div>
   );
