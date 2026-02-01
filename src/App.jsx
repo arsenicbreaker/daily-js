@@ -115,7 +115,6 @@ function Dashboard({ onLogout }) {
             </div>
           ))}
         </div>
-
         <a href="/progress" className="see-all">
           See All →
         </a>
