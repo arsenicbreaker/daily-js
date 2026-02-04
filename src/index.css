@@ -279,7 +279,7 @@ body {
     margin: 1.5rem auto;
   }
 
-  /* CARD DIKECILIN */
+  /* mengecilkan card? */
   .progress-card {
     padding: 0.8rem;
     min-height: 70px;
@@ -293,7 +293,7 @@ body {
     font-size: 0.7rem;
   }
 
-  /* judul jangan makan tempat */
+  /* judul tidak makan tempat */
   .progress-section h2 {
     font-size: 1.6rem;
   }
@@ -303,3 +303,12 @@ body {
     font-size: 0.85rem;
   }
 }
+
+.top-nav {
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+
+  background: var(--bg-main);
+}
+
